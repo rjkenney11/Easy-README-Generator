@@ -9,8 +9,8 @@ ${data.description}
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Contributing](#contributing)
   - [Screenshot](#screenshot)
+  - [Contributing](#contributing)
   - [Questions](#questions)
   - [License](#license)
 
@@ -20,27 +20,27 @@ ${data.installation}
 ### Usage:
 ${data.usage}
 
-### Contributing:
-${data.contributing}<br />
-<br />
-GitHub: [${data.username}](http://github.com/${data.username})<br /><br />
-
 ### Screenshot:
 ![Image](${data.screenshot})
 <br />
 <br />
 GitHib Link: ${data.repo} <br /><br />
 
-### License:
-![badge](https://img.shields.io/badge/license-${data.license}-blue)
+### Contributing:
+${data.contributing}<br />
 <br />
-This application is covered by ${data.license}. 
+GitHub: [${data.username}](http://github.com/${data.username})<br /><br />
 
 ### Questions:
 ${data.questions}<br />
 <br />
 Email me: ${data.email}<br />
 <br />
+
+### License:
+![badge](https://img.shields.io/badge/license-${data.license}-blue)
+<br />
+This application is covered by ${data.license}. 
 
 `;
 }
