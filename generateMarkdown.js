@@ -1,32 +1,45 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
-// TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   console.log(data);
   return `# Project Title: ${data.title}
   
 ### Description: 
 ${data.description}
+Check it out here: 
 
-[GitHub Link to ${data.username}](http://github.com/${data.username})
+### Table of Contents:
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
+  - [License](#license)
 
-- One
-- Two
-- Three
+### Installation:
+${data.installation}
 
-https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>
+### Usage:
+${data.usage}
 
+### Contributing:
+${data.contributing}<br />
+<br />
+GitHub: [GitHub Link to ${data.username}](http://github.com/${data.username})<br /><br />
+
+### Tests:
+${data.tests}
+
+### Questions:
+${data.questions}<br />
+<br />
+Email me: ${data.email}<br />
+<br />
+GitHub Repo: [GitHub Link to ${data.repo}]<br /><br />
+
+### License:
 ![Badge License](https://img.shields.io/badge/License-${data.license}-blue)
+<br />
+This application is covered by ${data.license}.
 `;
 }
 

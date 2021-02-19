@@ -1,4 +1,3 @@
-# homework-9.
 # Project Title: Read Me Generator
   
 ### Description: 

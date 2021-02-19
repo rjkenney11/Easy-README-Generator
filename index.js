@@ -35,6 +35,16 @@ const questions = [
     },
     {
         type: "input",
+        name: "questions",
+        message: "What should I do if I have any further questions? (Ex. Please feel free to reach out to me if you have any questions)"
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "Please enter your email address: "
+    },
+    {
+        type: "input",
         name: "username",
         message: "Please enter your GitHub username: "
     },
@@ -71,7 +81,7 @@ function init() {
         console.log(data);
         //const filename = `${data.name.toLowerCase().split(' ').join('')}.json`;
 
-        fs.writeFile('test.md', generateMarkdown(data), (err) =>
+        fs.writeFile('ReadMeExample.md', generateMarkdown(data), (err) =>
             err ? console.log(err) : console.log('Success!')
         );
     }).catch(function (error) {
