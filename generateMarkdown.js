@@ -28,6 +28,11 @@ GitHub: [${data.username}](http://github.com/${data.username})<br /><br />
 ### Screenshot:
 ![Image](${data.screenshot})
 
+### License:
+![badge](https://img.shields.io/badge/license-${data.license}-blue)
+<br />
+This application is covered by ${data.license}. 
+
 ### Questions:
 ${data.questions}<br />
 <br />
@@ -35,11 +40,6 @@ Email me: ${data.email}<br />
 <br />
 GitHib Link: ${data.repo} <br /><br />
 
-### License:
-[![License](https://img.shields.io/badge/License-${data.license}-brightgreen.svg)]
-(https://opensource.org/licenses/${data.license})
-<br />
-This application is covered by ${data.license}.
 `;
 }
 

@@ -26,15 +26,15 @@ GitHub: [rjkenney11](http://github.com/rjkenney11)<br /><br />
 ### Screenshot:
 ![Image](https://user-images.githubusercontent.com/74163812/108459676-21c80a80-7245-11eb-880d-945cc51caf2c.png)
 
+### License:
+![badge](https://img.shields.io/badge/license-MIT License-blue)
+<br />
+This application is covered by MIT License. 
+
 ### Questions:
-Please feel free to reach out to me if you have any questions<br />
+Please feel free to reach out to me if you have any questions:<br />
 <br />
 Email me: rjkenney11@gmail.com<br />
 <br />
 GitHib Link: https://rjkenney11.github.io/homework-9./ <br /><br />
 
-### License:
-[![License](https://img.shields.io/badge/License-MIT License-brightgreen.svg)]
-(https://opensource.org/licenses/MIT License)
-<br />
-This application is covered by MIT License.
