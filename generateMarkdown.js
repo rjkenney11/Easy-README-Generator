@@ -27,6 +27,9 @@ GitHub: [${data.username}](http://github.com/${data.username})<br /><br />
 
 ### Screenshot:
 ![Image](${data.screenshot})
+<br />
+<br />
+GitHib Link: ${data.repo} <br /><br />
 
 ### License:
 ![badge](https://img.shields.io/badge/license-${data.license}-blue)
@@ -38,7 +41,6 @@ ${data.questions}<br />
 <br />
 Email me: ${data.email}<br />
 <br />
-GitHib Link: ${data.repo} <br /><br />
 
 `;
 }
