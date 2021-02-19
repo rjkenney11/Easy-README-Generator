@@ -35,6 +35,11 @@ const questions = [
     },
     {
         type: "input",
+        name: "screenshot",
+        message: "Please attach a screenshot of your project (either a .png or a .jpg)"
+    },
+    {
+        type: "input",
         name: "questions",
         message: "What should I do if I have any further questions? (Ex. Please feel free to reach out to me if you have any questions)"
     },
@@ -51,7 +56,7 @@ const questions = [
     {
         type: 'input',
         name: 'repo',
-        message: "What is the name of your GitHub repo?",
+        message: "Enter the link to your GitHub Repo",
         validate: function (answer) {
             if (answer.length < 1) {
                 return console.log("A valid GitHub repo is required.");

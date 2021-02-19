@@ -1,17 +1,16 @@
 function generateMarkdown(data) {
   console.log(data);
-  return `# Project Title: ${data.title}
+  return `# ${data.title}
   
 ### Description: 
 ${data.description}
-Check it out here: 
 
 ### Table of Contents:
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contributing](#contributing)
-  - [Tests](#tests)
+  - [Screenshot](#screenshot)
   - [Questions](#questions)
   - [License](#license)
 
@@ -24,20 +23,20 @@ ${data.usage}
 ### Contributing:
 ${data.contributing}<br />
 <br />
-GitHub: [GitHub Link to ${data.username}](http://github.com/${data.username})<br /><br />
+GitHub: [${data.username}](http://github.com/${data.username})<br /><br />
 
-### Tests:
-${data.tests}
+### Screenshot:
+![Image](${data.screenshot})
 
 ### Questions:
 ${data.questions}<br />
 <br />
 Email me: ${data.email}<br />
 <br />
-GitHub Repo: [GitHub Link to ${data.repo}]<br /><br />
+GitHib Link:[${data.repo}]<br /><br />
 
 ### License:
-![Badge License](https://img.shields.io/badge/License-${data.license}-blue)
+![badge](https://img.shields.io/badge/license-${data.license}-blue)
 <br />
 This application is covered by ${data.license}.
 `;
