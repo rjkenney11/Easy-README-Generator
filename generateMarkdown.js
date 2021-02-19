@@ -29,7 +29,7 @@ GitHub: [${data.username}](http://github.com/${data.username})<br /><br />
 ![Image](${data.screenshot})
 
 ### License:
-![badge](https://img.shields.io/badge/license-${data.license}-blue)
+![badge](https://img.shields.io/badge/license-(${data.license})-blue)
 <br />
 This application is covered by ${data.license}. 
 

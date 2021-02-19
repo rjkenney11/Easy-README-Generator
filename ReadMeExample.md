@@ -13,7 +13,7 @@ When creating an open source project on GitHub, it’s important to have a high-
   - [License](#license)
 
 ### Installation:
-The application will be invoked by using "node index.js
+The application will be invoked by using "node index.js"
 
 ### Usage:
 You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
@@ -27,9 +27,9 @@ GitHub: [rjkenney11](http://github.com/rjkenney11)<br /><br />
 ![Image](https://user-images.githubusercontent.com/74163812/108459676-21c80a80-7245-11eb-880d-945cc51caf2c.png)
 
 ### License:
-![badge](https://img.shields.io/badge/license-MIT License-blue)
+![badge](https://img.shields.io/badge/license-(MIT)-blue)
 <br />
-This application is covered by MIT License. 
+This application is covered by MIT. 
 
 ### Questions:
 Please feel free to reach out to me if you have any questions:<br />
