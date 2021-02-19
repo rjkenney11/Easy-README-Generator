@@ -33,10 +33,11 @@ ${data.questions}<br />
 <br />
 Email me: ${data.email}<br />
 <br />
-GitHib Link:[${data.repo}]<br /><br />
+GitHib Link: ${data.repo} <br /><br />
 
 ### License:
-![badge](https://img.shields.io/badge/license-${data.license}-blue)
+[![License](https://img.shields.io/badge/License-${data.license}-brightgreen.svg)]
+(https://opensource.org/licenses/${data.license})
 <br />
 This application is covered by ${data.license}.
 `;
